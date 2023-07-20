@@ -1,0 +1,177 @@
+/* title 영역 */
+.title_bg {
+    height:900px;
+    background: url(../image/title_bg_gr.png) no-repeat center;
+    background-size: cover;
+}
+.title_bg .title { background:blue;
+    position:relative;
+    width:856px; height: 900px;
+    margin:0 auto;
+    padding:100px 0;
+}
+.title_bg .title p {
+    
+
+}
+.title_bg .title p img {}
+.title_bg .title .stamp {
+    position:absolute; left:0; bottom:258px;
+}
+.title_bg .title .stamp img {}
+/* 추천 영역 */
+.sg_bg {
+    background: url(../image/for_bg.png) no-repeat;
+    background-size:cover;
+}
+.sg_bg .sg {
+    background:rgba(255,0,0,0.5);
+    margin:0 auto;
+    display:flex; flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+}
+.sg_bg .sg h2 {}
+.sg_bg .sg h3 {}
+.sg_bg .sg p {}
+.sg_bg .sg p img {}
+.sg_bg .sg .contents {}
+.sg_bg .sg .contents p {}
+.sg_bg .sg .contents p img {}
+/* 탐험가 천국 영역 */
+.heaven_bg {}
+.heaven_bg .heaven {}
+.heaven_bg .heaven h2 {}
+.heaven_bg .heaven h3 {}
+.heaven_bg .heaven h3 em {}
+.heaven_bg .heaven ul {}
+.heaven_bg .heaven ul li {}
+.heaven_bg .heaven ul li .list_1 {}
+.heaven_bg .heaven ul li .list_1 p {}
+.heaven_bg .heaven ul li .list_1 p img {}
+.heaven_bg .heaven ul li .list_1 h3 {}
+.heaven_bg .heaven ul li .list_1 h3 img {}
+.heaven_bg .heaven ul li .list_1 h3 span {}
+.heaven_bg .heaven ul li .list_1 .contents {}
+.heaven_bg .heaven ul li .list_2 {}
+.heaven_bg .heaven ul li .list_2 p {}
+.heaven_bg .heaven ul li .list_2 p img {}
+.heaven_bg .heaven ul li .list_2 h3 {}
+.heaven_bg .heaven ul li .list_2 h3 img {}
+.heaven_bg .heaven ul li .list_2 h3 span {}
+.heaven_bg .heaven ul li .list_2 .contents {}
+.heaven_bg .heaven ul li .list_3 {}
+.heaven_bg .heaven ul li .list_3 p {}
+.heaven_bg .heaven ul li .list_3 p img {}
+.heaven_bg .heaven ul li .list_3 h3 {}
+.heaven_bg .heaven ul li .list_3 h3 img {}
+.heaven_bg .heaven ul li .list_3 h3 span {}
+.heaven_bg .heaven ul li .list_3 .contents {}
+.heaven_bg .heaven ul li .list_4 {}
+.heaven_bg .heaven ul li .list_4 p {}
+.heaven_bg .heaven ul li .list_4 p img {}
+.heaven_bg .heaven ul li .list_4 h3 {}
+.heaven_bg .heaven ul li .list_4 h3 img {}
+.heaven_bg .heaven ul li .list_4 h3 span {}
+.heaven_bg .heaven ul li .list_4 .contents {}
+.food_bg {}
+.food_bg .food {}
+.food_bg .food h2 {}
+.food_bg .food h3 {}
+.food_bg .food h3 em {}
+.food_bg .food ul {}
+.food_bg .food ul li {}
+.food_bg .food ul li .list_1 {}
+.food_bg .food ul li .list_1 p {}
+.food_bg .food ul li .list_1 p img {}
+.food_bg .food ul li .list_1 .number {}
+.food_bg .food ul li .list_1 h3 {}
+.food_bg .food ul li .list_1 h3 span {}
+.food_bg .food ul li .list_1 .contents {}
+.food_bg .food ul li .list_2 {}
+.food_bg .food ul li .list_2 p {}
+.food_bg .food ul li .list_2 p img {}
+.food_bg .food ul li .list_2 .number {}
+.food_bg .food ul li .list_2 h3 {}
+.food_bg .food ul li .list_2 h3 span {}
+.food_bg .food ul li .list_2 .contents {}
+.food_bg .food ul li .list_3 {}
+.food_bg .food ul li .list_3 p {}
+.food_bg .food ul li .list_3 p img {}
+.food_bg .food ul li .list_3 .number {}
+.food_bg .food ul li .list_3 h3 {}
+.food_bg .food ul li .list_3 h3 span {}
+.food_bg .food ul li .list_3 .contents {}
+.food_bg .food ul li .list_4 {}
+.food_bg .food ul li .list_4 p {}
+.food_bg .food ul li .list_4 p img {}
+.food_bg .food ul li .list_4 .number {}
+.food_bg .food ul li .list_4 h3 {}
+.food_bg .food ul li .list_4 h3 span {}
+.food_bg .food ul li .list_4 .contents {}
+.sports_bg {}
+.sports_bg .sports {}
+.sports_bg .sports h2 {}
+.sports_bg .sports h3 {}
+.sports_bg .sports h3 em {}
+.sports_bg .sports ul {}
+.sports_bg .sports ul li {}
+.sports_bg .sports ul li .contents_1 {}
+.sports_bg .sports ul li .contents_1 .circle {}
+.sports_bg .sports ul li .contents_1 .circle img {}
+.sports_bg .sports ul li .contents_1 h3 {}
+.sports_bg .sports ul li .contents_1 h3 span {}
+.sports_bg .sports ul li .contents_1 .contents {}
+.sports_bg .sports ul li .contents_1 p {}
+.sports_bg .sports ul li .contents_1 p img {}
+.sports_bg .sports ul li .contents_2 {}
+.sports_bg .sports ul li .contents_2 .circle {}
+.sports_bg .sports ul li .contents_2 .circle img {}
+.sports_bg .sports ul li .contents_2 h3 {}
+.sports_bg .sports ul li .contents_2 h3 span {}
+.sports_bg .sports ul li .contents_2 .contents {}
+.sports_bg .sports ul li .contents_2 p {}
+.sports_bg .sports ul li .contents_2 p img {}
+.sports_bg .sports ul li .contents_3 {}
+.sports_bg .sports ul li .contents_3 .circle {}
+.sports_bg .sports ul li .contents_3 .circle img {}
+.sports_bg .sports ul li .contents_3 h3 {}
+.sports_bg .sports ul li .contents_3 h3 span {}
+.sports_bg .sports ul li .contents_3 .contents {}
+.sports_bg .sports ul li .contents_3 p {}
+.sports_bg .sports ul li .contents_3 p img {}
+.sports_bg .sports ul li .contents_4 {}
+.sports_bg .sports ul li .contents_4 .circle {}
+.sports_bg .sports ul li .contents_4 .circle img {}
+.sports_bg .sports ul li .contents_4 h3 {}
+.sports_bg .sports ul li .contents_4 h3 span {}
+.sports_bg .sports ul li .contents_4 .contents {}
+.sports_bg .sports ul li .contents_4 p {}
+.sports_bg .sports ul li .contents_4 p img {}
+.quiz {}
+.quiz h2 {}
+.quiz h3 {}
+.quiz h3 em {}
+.quiz p {}
+.quiz .event {}
+.quiz .event p {}
+.quiz .event p em {}
+.quiz .box {}
+.quiz .box h3 {}
+.quiz .box h3 em {}
+.quiz .box #quiz_frm {}
+.quiz .box #quiz_frm fieldset {}
+.quiz .box #quiz_frm fieldset ul {}
+.quiz .box #quiz_frm fieldset ul li {}
+.quiz .box #quiz_frm fieldset ul li label {}
+.quiz .box #quiz_frm fieldset ul li label #q1 {}
+.quiz .box #quiz_frm fieldset ul li label #q1 span {}
+.quiz .box #quiz_frm fieldset ul li label #q2 {}
+.quiz .box #quiz_frm fieldset ul li label #q2 span {}
+.quiz .box #quiz_frm fieldset ul li label #q3 {}
+.quiz .box #quiz_frm fieldset ul li label #q3 span {}
+.quiz .box #quiz_frm fieldset ul li label #q4 {}
+.quiz .box #quiz_frm fieldset ul li label #q4 span {}
+.quiz .box #quiz_frm fieldset p {}
+.quiz .box #quiz_frm fieldset #quiz_btn {}
+
+
