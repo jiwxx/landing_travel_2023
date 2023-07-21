@@ -21,28 +21,50 @@
 .title_bg .title .stamp img {}
 /* 추천 영역 */
 .sg_bg {
-    background: url(../image/for_bg.png) no-repeat;
+    background-color: #4D77FF;
     background-size:cover;
 }
+.sg_bg .sg > * {margin-bottom:50px;}
 .sg_bg .sg {
-    background:rgba(255,0,0,0.5);
+    /* background:rgba(255,0,0,0.5); */
     margin:0 auto;
     display:flex; flex-flow:column nowrap;
     justify-content:center; align-items:center;
+    color:#fff;
+    padding:100px 0;
 }
-.sg_bg .sg h2 {}
-.sg_bg .sg h3 {}
+.sg_bg .sg h2 {
+    font-family: 'Pinyon Script',cursive; font-size:1.7rem;
+}
+.sg_bg .sg h3 {
+    font-size:2.3rem; font-weight:700;
+}
+.sg_bg .sg h3 em {color:#F2FA5A; font-size:2.3rem; font-weight:700;}
 .sg_bg .sg p {}
 .sg_bg .sg p img {}
 .sg_bg .sg .contents {}
-.sg_bg .sg .contents p {}
-.sg_bg .sg .contents p img {}
+.sg_bg .sg .contents p {
+    display:flex; flex-flow:row wrap;
+    margin-bottom:35px;
+}
+.sg_bg .sg .contents:last-child {margin-bottom:0px;}
+.sg_bg .sg .contents p img {width:30px; height:30px;}
+.sg_bg .sg .contents p span {
+    font-size:1.7rem; margin-left:10px;
+    font-weight:500;
+}
 /* 탐험가 천국 영역 */
-.heaven_bg {}
-.heaven_bg .heaven {}
-.heaven_bg .heaven h2 {}
-.heaven_bg .heaven h3 {}
-.heaven_bg .heaven h3 em {}
+.heaven_bg {
+    background: url(../image/heaven_bg.png) no-repeat center;
+    background-size: cover; 
+}
+.heaven_bg .heaven > * {margin-bottom:50px;}
+.heaven_bg .heaven {
+    color:#fff; margin:0 auto; text-align:center;
+}
+.heaven_bg .heaven h2 {font-family: 'Pinyon Script',cursive; font-size:1.7rem;}
+.heaven_bg .heaven h3 {font-size:2.3rem; font-weight:700;}
+.heaven_bg .heaven h3 em {color:#F2FA5A; font-size:2.3rem; font-weight:700;}
 .heaven_bg .heaven ul {}
 .heaven_bg .heaven ul li {}
 .heaven_bg .heaven ul li .list_1 {}
