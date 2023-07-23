@@ -240,8 +240,10 @@
     font-weight: 800;
 }
 /* .quiz_bg .quiz p {color:#fff;
-    font-size:1.3rem; font-weight: 700;} */
+    font-size:1.3rem; font-weight: 700;
+} */
 .quiz_bg .quiz p {
+
 }
 .quiz_bg .quiz .event {
     text-align:center;
@@ -284,4 +286,40 @@
 .quiz_bg .quiz .box #quiz_frm fieldset ul li:last-child {margin-bottom:0;}
 .quiz_bg .quiz .box #quiz_frm fieldset ul li {
     margin-bottom:40px; 
+    background-color: #F2FA5A;
+}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label {}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q1 {
+
+}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q1 span {
+    
+}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q2 {
+    
+}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q2 span {}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q3 {}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q3 span {}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q4 {}
+.quiz_bg .quiz .box #quiz_frm fieldset ul li label #q4 span {}
+.quiz_bg .quiz .box p {
+    color:#2558FD;
+    text-align: right;
+    margin-top: 10px;
+}
+.quiz_bg .quiz .box #quiz_btn {
+    margin-top:55px;
+    background-color: #fff; color:#4D77FF;
+    border-radius: 50px;
+    font-size:2.3rem;
+    font-weight: 700;
+    padding:20px 100px;
+    width:363px;
+    align-self: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+.quiz_bg .quiz .box #quiz_btn:hover {
+    background-color: #F2FA5A;
 }
